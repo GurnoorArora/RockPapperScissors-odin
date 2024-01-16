@@ -1,0 +1,130 @@
+body{
+    padding: 0px;
+    margin:0px;
+  
+}
+.navbar
+{
+    height: 100px;
+    background-color: rgb(15, 0, 83);
+    color: rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
+   
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+    border: 2px solid  yellow;
+    
+      
+
+}
+.lower
+{
+    border: 2px solid yellow;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.webpage
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* background-color: rgb(39, 30, 170); */
+    background-color: rgb(36, 1, 191);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid yellow;
+    
+}
+.text
+{
+   display: flex;
+   justify-content: center;
+   color: yellow;
+   border: 2px solid yellow;
+}
+.text h1{
+    font-size: 20px;
+}
+.images
+{
+    justify-self: end;
+    /* margin-top: 300px; */
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    border: 2px solid yellow;
+    
+}
+
+img{
+    
+    border: 5px solid  rgb(15, 0, 83);
+    margin: 2px;
+    border-radius: 10%;
+    
+}
+
+.boxes
+{
+   
+    border: 2px solid  yellow ;
+    flex-grow: 1;
+    
+    display: flex;
+    
+}
+.computer
+{
+    border: 2px solid yellow;
+    height: 100%;
+    width: 50%;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: yellow;
+
+   
+}
+.player
+{
+    border: 2px solid yellow;
+    height: 100%;
+    width: 50%;
+    margin-right: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: yellow;
+   
+}
+.imgplayer
+{
+    font-size: 100px;
+}
+.imgcomputer
+{
+    font-size: 100px;
+}
+.images{
+    display: flex;
+    flex-grow: 1;
+    
+    align-items: center;
+}
+button{
+    
+    font-size: 100px;
+    background-color: rgb(15, 0, 83) ;
+    border: 5px solid yellow;
+    margin: 2px;
+    border-radius: 10%;
+    display: flex;
+}
